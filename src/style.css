@@ -1,0 +1,50 @@
+
+
+/* resets browser silliness for all elements before and after  */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* sets base font size to 10px (from 16px in most browsers) */
+/* sets line height to a more comfortable and readable line */
+html {
+    font-size: 62.5%;
+    line-height: 1.6;
+  }
+
+body {
+    font-size: 1.6rem;
+    background-color: black;
+}
+
+
+  a {
+    text-decoration: none;
+    color:aliceblue;
+  }
+
+  .content {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 8vh repeat(3, 25vh) 5vh;
+    grid-template-columns: repeat(3, 30vh);
+    background-image: url('./images/tacosSign1.jpeg');
+    color: aliceblue;
+    background-size: contain;
+    /* Ensure the image maintains its aspect ratio */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    background-position: center center;
+    /* Center the image both horizontally and vertically */
+  }
+
+  .tacoImg {
+    width: 50%;
+    height: auto;
+  }
+
+
