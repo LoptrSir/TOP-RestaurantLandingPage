@@ -1,2 +1,4 @@
 
+
+11/24  Project works fine in live=server, needs more styling. webpack doesnt likt loading css or images.
 11/16 1552 Commit:  Started project over. will create a js for each page but html and css will be one file.  Currently, clicking menu doesn't trigger menu page, when it's called directly via html page menu works correctly.  Need to figure out calling menu via import.
