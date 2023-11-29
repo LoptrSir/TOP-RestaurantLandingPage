@@ -20,6 +20,7 @@ function createContact (title, description) {
     contactData.textContent = description;
     contactItem.appendChild(contactHeader);
     contactItem.appendChild(contactData);
+    console.log('CreateContact');
     return contactItem;
 }
 
@@ -29,4 +30,5 @@ function loadContact() {
   main.appendChild(createContactList());
 }
 console.log("Contact.js");
+// loadContact();
 export default loadContact;

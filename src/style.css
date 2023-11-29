@@ -1,6 +1,6 @@
 
 
-/* resets browser silliness for all elements before and after  */
+
 *,
 *::before,
 *::after {
@@ -45,6 +45,18 @@ body {
   .tacoImg {
     width: 50%;
     height: auto;
+  }
+
+  .home {
+    color: aliceblue;
+  }
+
+  .menu-item {
+    color: aliceblue;
+  }
+
+  .contactItem {
+    color: aliceblue;
   }
 
 
