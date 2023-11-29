@@ -14,7 +14,7 @@ function createMenu(menuItems) {
     const itemImage = document.createElement("img");
     itemImage.classList.add("tacoImg");
     // itemImage.src = imgSrc; //devtool 404 error throwm for this line.
-    // itemImage.src = `images/tacos/${title}.jpg`;
+    itemImage.src = `images/tacos/${title}.jpg`;
     itemImage.alt = `title`;
   
     menuItem.appendChild(itemImage);

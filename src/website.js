@@ -27,6 +27,7 @@ const createTabs = () => {
     // { name: "Menu", url: "./menu.js" },
     // { name: "Contact", url: "./contact.js" },
   ];
+  // tabsData.classList.add('tabsData');
   tabsData.forEach((tabInfo) => {
     const tab = document.createElement("a");
     tab.classList.add("tab");

@@ -10,6 +10,7 @@ tacoCatImg.src = 'images/tacocat.jpg';
 tacoCatImg.alt = 'Taco Cat';
 
 const greetingHeader = document.createElement('h3');
+greetingHeader.classList.add('greetingHeader');
 greetingHeader.textContent = "Welcome to Loptr's house of TACOS!"
 
 const greeting = document.createElement('p');
