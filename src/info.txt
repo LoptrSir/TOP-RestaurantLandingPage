@@ -1,7 +1,9 @@
 
   // "start": "webpack-dev-server --open"
-
-
-11/29 1210: project works in live-server, needs styling. Something effed right off between no ans the last push.  Lost a bunch of work and had to rebuild a bunch.
+12/6 1143: Things to learn more about:menu.js line 22 import .then .catch
+Seem to have lost some notes along the way.  Had some serious challenges in getting this to play in webpack.  but its finally there.
+11/30 1258: content with styling. Now to start wrangling into webpack...
+11/29 1408: Styling coming along.
+1210: project works in live-server, needs styling. Something effed right off between no ans the last push.  Lost a bunch of work and had to rebuild a bunch.
 11/24  Project works fine in live=server, needs more styling. webpack doesnt likt loading css or images.
 11/16 1552 Commit:  Started project over. will create a js for each page but html and css will be one file.  Currently, clicking menu doesn't trigger menu page, when it's called directly via html page menu works correctly.  Need to figure out calling menu via import.

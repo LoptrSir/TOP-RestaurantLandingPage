@@ -1,15 +1,19 @@
 //HomePage
 
+import tacocatImg from './images/tacocat.jpg'
+
 function createHome(){
 const home = document.createElement('div');
 home.classList.add('home');
 
 const tacoCatImg = document.createElement('img');
 tacoCatImg.classList.add('tacoCatImg');
-tacoCatImg.src = 'images/tacocat.jpg';
+// tacoCatImg.src = './images/tacocat.jpg';
+tacoCatImg.src = tacocatImg;
 tacoCatImg.alt = 'Taco Cat';
 
 const greetingHeader = document.createElement('h3');
+greetingHeader.classList.add('greetingHeader');
 greetingHeader.textContent = "Welcome to Loptr's house of TACOS!"
 
 const greeting = document.createElement('p');

@@ -1,3 +1,5 @@
+// index.js entry file
+
 import createWebsite from './website.js';
 import './style.css';
 
