@@ -53,25 +53,25 @@ function createMenu(menuItems) {
 
 const menuData = [
   {
-    title: "BirriaTacos",
+    title: "Birria Tacos",
     description:
       "(pronounced “bee-ree-ah”) Traditional slow-cooked stew made from a combination of sweet, spicy, and smoky dried chiles from Jalisco, Mexico. Served with limes, tortillas (dunked in consume), white onions, cilantro, with a cup of birria consume.",
     imageSrc: "BirriaTacos.jpg"
   },
   {
-    title: "TacosAlPastor",
+    title: "Tacos Al Pastor",
     description:
       "Thinly sliced pork marinated in a combination of dried chilies, spices, pineapple, and achiote paste. Charcoal roasted on a vertical trompo. As the meat roasts it's shaved off and served in corn tortillas with finely chopped onions, cilantro, diced pineapple, and a wedge of lime.",
     imageSrc: "TacosAlPastor.jpg",
   },
   {
-    title: "BarbacoaTacos",
+    title: "Barbacoa Tacos",
     description:
       "Shredded beef slowly braised in a broth of toasted chile de arbol, quajillo, onion, garlic, and spices. Served on corn tortillas with finely chopped onion, cilantro, avacado, and a wedge of lime.",
     imageSrc: "BarbacoaTacos.jpg",
   },
   {
-    title: "FishTacos",
+    title: "Fish Tacos",
     description:
       "Choice of grilled or fried haddock or salmon. Served on corn tortillas with shredded cabbage, pico de gallo, and a citrus sour cream sauce.",
     imageSrc: "FishTacos.jpg",
