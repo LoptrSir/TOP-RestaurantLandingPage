@@ -79,7 +79,9 @@ function createWebsite() {
   loadHome();
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  createWebsite();
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   //  createWebsite();
+// });
+    // createWebsite();
 export default createWebsite;
+

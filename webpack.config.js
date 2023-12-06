@@ -9,6 +9,7 @@ module.exports = {
   output: {
     filename: "[name].bundle.js",
     path: path.resolve(__dirname, "dist"),
+    // publicPath: '/',  //gpt suggested this for image 404 error
     clean: true,
   },
   devtool: "inline-source-map", //error tracking. Not best option for production. check out the options available.
@@ -34,6 +35,9 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
+        // generator: {
+        //   filename: 'images/[name].[hash][text]',
+        // }
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,

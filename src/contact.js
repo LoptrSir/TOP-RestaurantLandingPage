@@ -1,4 +1,4 @@
-//Home js
+//Contact js
 
 function createContactList() {
   console.log("create home funct");
